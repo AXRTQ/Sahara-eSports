@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+.my-card{background-color: #3f3f3f;}
+
+
+
+a {
+  color: #474747;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+/* Navbar styles */
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+/* Content styles */
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  
+
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.image{width: 500px;}
+
+.card:hover {background-color: #2e2e2e;}
+
+
+.invert {
+  filter: invert(100%);
+}
+
+.fa-brands{color: #ccc; vertical-align: middle;  padding: 2px; font-size: larger; }
+.fa-solid{color: #ccc; vertical-align: middle;  padding: 2px; font-size: larger;}
+
+.ENG{text-decoration: none; color: #ccc; transition: 0.5s; font-size: large; padding-left: 5px;}
+.ENG:hover{text-decoration: none; color: #ffffff; transition: 0.3s;}
